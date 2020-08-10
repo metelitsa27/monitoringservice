@@ -1,0 +1,6 @@
+monitoringservice:
+  paths:
+    plc:
+    board:
+    server:
+    terminals:
