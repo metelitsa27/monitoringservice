@@ -4,3 +4,14 @@ monitoringservice:
     board:
     server:
     terminals:
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    enabled-by-default: true
+    web:
+      base-path: /otherpath
+      exposure:
+        include: health, info, env, beans, metrics, shutdown, threads
